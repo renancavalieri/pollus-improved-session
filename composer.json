@@ -1,0 +1,26 @@
+{
+    "name": "pollus/improved-session",
+    "description": "An session wrapper object that extends the default PHP Session and improves its methods by handling cookies and provides a better session constructor.",
+    "keywords": ["php", "session", "improved", "wrapper"],
+    "license": "MIT",
+    "authors": 
+    [
+        {
+            "name": "Renan Cavalieri",
+            "email": "renan@tecdicas.com"
+        }
+    ],
+    "type": "library",
+    "require": 
+    {
+        "php": ">=7.2",
+        "pollus/session-wrapper": "^1.0.0"
+    },
+    "autoload": 
+	{
+        "psr-4": 
+        {
+            "Pollus\\ImprovedSession\\": "src/"
+        }
+    }
+}
